@@ -39,7 +39,7 @@
 
 Сжатые и уменьшенные изображения должны загружаться на сервер Cloudinary:
 
-* **URL: ** https://api.cloudinary.com/v1_1/dldnai0ij/image/upload
+* **URL:** https://api.cloudinary.com/v1_1/dldnai0ij/image/upload
 * **Method:** POST
 * **Preset:** jo9jidf8
 * **Tags:** take-home-test
@@ -48,7 +48,7 @@
 
 Для имитации сохранения карточки изображения, необходимо сделать запрос на mock сервер Postman’a.
 
-* **URL: ** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures
+* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures
 * **Method:** POST
 * **JSON Payload:** `{“waypointId": <ID>, “imageUrl”: <URL>}`
 
@@ -59,7 +59,7 @@
 
 Для имитации изменения карточки изображения, необходимо сделать запрос на mock сервер Postman’a.
 
-* **URL: ** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures
+* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures
 * **Method:** PUT
 * **JSON Payload:** `{“waypointId": <ID>}`
 
@@ -67,7 +67,7 @@
 
 Для имитации загрузки карточек изображений, необходимо сделать запрос на mock сервер Postman’a
 
-* **URL: ** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures/my
+* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures/my
 * **Method:** GET
 
 В ответе всегда возвращается 1 статическая карточка.
@@ -76,7 +76,7 @@
 
 Для имитации загрузки списка ивентов и отметок, необходимо сделать запрос на mock сервер Postman’a
 
-* **URL: ** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/events/my
+* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/events/my
 * **Method:** GET
 
 В ответе всегда возвращаются 3 ивента с отметками. **!!! Для отображения на UI используйте только ивенты со статусом “active” !!!**
