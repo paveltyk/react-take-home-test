@@ -52,14 +52,14 @@
 * **Method:** POST
 * **JSON Payload:** `{“waypointId": <ID>, “imageUrl”: <URL>}`
 
-**waypointId:** - ID *отметки* выбранной в дропдауне
-**imageUrl:** - URL изображения на сервере Cloudinary (аттрибут secure_url в отверете Cloudinary при загрузке ассета)
+* **waypointId:** - ID *отметки* выбранной в дропдауне
+* **imageUrl:** - URL изображения на сервере Cloudinary (аттрибут secure_url в отверете Cloudinary при загрузке ассета)
 
 ### Изменение карточек изображения на mock сервере
 
 Для имитации изменения карточки изображения, необходимо сделать запрос на mock сервер Postman’a.
 
-* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures
+* **URL:** https://8a4bdb22-38b7-46c7-9944-809575dff15b.mock.pstmn.io/api/waypoint-captures/1
 * **Method:** PUT
 * **JSON Payload:** `{“waypointId": <ID>}`
 
